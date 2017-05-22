@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+
+{% block body_block %} 
+<h1> Create a post </h1>
+    {% if sent %}
+     	<h2>
+     		Post successfully is uploaded
+     	</h2>           
+    {% else %}
+        <form action="." method="post">
+            {{ form.as_p }}  
+            {% csrf_token %} 
+            <input type="submit" value="upload post">   
+        </form>
+    {% endif %} 
+{% endblock %} 

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block body_block %}
+
+
+<style>
+        h1 {
+            font-size: 30px;
+            color: red;
+            text-align: center;
+           }
+
+        h2 {
+            font-size: 20px;
+            color: blue;
+           }
+
+        p  {
+            white-space: nowrap; 
+            width: 27em;           
+            font-size: 18px;
+            overflow: hidden;
+           }    
+      
+</style>
+  <h1>Blog</h1>
+    <ul>          
+        {%for p in messages %}
+          <h2> 
+       	  	 {{ p.title|title}}
+          </h2>
+       		<p> Creation date :{{ p.date}} </p>
+          <p> {{p.content}}</p>  
+          <a href ="{% url 'x123' p.slug %}"> Read more </a>
+        {%endfor%}
+    </ul> 
+
+
+{% endblock %}

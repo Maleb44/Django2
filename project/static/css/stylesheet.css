@@ -1,0 +1,17 @@
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+li {
+    
+    white-space: nowrap; 
+    width: 12em; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+}
+#####left { width:100px; height: 500px; background:red; float:left; }
+#right { width:300px; height:200px; background:blue; float:left }

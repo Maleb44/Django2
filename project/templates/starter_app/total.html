@@ -1,0 +1,73 @@
+<html> 
+    
+    {% load left_tag  %}
+   <style>
+        div.left{ 
+                width:300px;
+                height: 450px;
+                background:yellow;
+                float:left;
+                overflow: scroll;    
+               
+        }
+        div.right {          
+            width:850px;
+            height: 600px;
+            background:blue;
+            float:right;
+        }
+        div.botton {          
+            width:300px;
+            height: 150px;
+            background:green;
+            float:left;
+        }    
+         h2{
+            font-size: 15px;
+            color:red;
+            text-align: left;
+            
+        }
+        h3 {
+            font-size: 20px;
+            color: red;
+            text-align: left;
+           }
+        p {            
+            font-size: 15px;
+            margin-right: 20px;
+            text-align: left;
+           }
+    a:active {
+    background-color: black;
+}    
+    </style>
+    
+<body>
+    <div class="left">
+
+        <h1>Post list</h1>   
+            <p>       
+                
+                
+                {% show_resultsx messages %}
+            </p> 
+    </div>
+
+	<div class="right">
+        <h1>Post detail </h1>
+            <p>
+                <h3>{{post_t.title}}</h3>
+            </p>
+            <p>
+                Creation time: {{post_t.date}}
+            </p>    
+            <p>    
+                {{post_t.content}}
+            </p>               
+    </div>
+    <div class="botton">
+        <a href="{% url 'post_new' %}"><h1>Create_post</h1></a>        
+    </div>
+</body> 
+</html> 

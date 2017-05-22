@@ -1,0 +1,34 @@
+[
+{"pk":2,"model": 
+ "slug": "elso1_teszt", "title": "Elso1 teszt"}},
+
+{"pk":3,"model": "starter_app.post",
+  "slug": "masodik_teszt", "title": "Masodik teszt"}}, 
+
+{"pk":4,"model": "starter_app.post",
+ "slug": "harmadik_teszt", "title": "Harmadik teszt"}}, 
+
+ {"pk":5,"model": "starter_app.post","fields":{
+ "date": "2016-06-12T18:19:30.321000", "slug": "gdgdggd", "title": "gdgdggd", "content": "aaaa ssss  JJJJJJJJJJJJJJJ  MMMMMMMMMMMMMMMMMMMMMMMMMMMMM mmmmmmmm mmmmmmm bbbb"}},
+ {"pk":6,"model": "starter_app.post","fields":{
+ "date": "2016-06-12T18:20:47.212000", "slug": "arpadhazi-kiralyok", "title": "Arpadhazi kiralyok", "content": "wwwwwww This is our custom ajax_required decorator. It defines a wrap function that returns an HttpResponseBadRequest object (HTTP 400 code) if the request is not AJAX. Otherwise, it returns the decorated function"}},
+ {"pk":7,"model": "starter_app.post","fields":{
+ "date": "2016-06-13T09:16:56.377000", "slug": "bela-1", "title": "Bela 1", "content": "text When programming JavaScript, especially when performing AJAX requests, it is recommended to use a tool such as Firebug for debugging. Firebug is a Firefox  add-on that allows you to debug JavaScript and monitor CSS and HTML changes. You can download Firebug from http://getfirebug.com/. Other browsers "}}, 
+  {"pk":8,"model": "starter_app.post","fields":{
+  "date": "2016-06-13T09:25:48.368000", "slug": "alma-ata", "title": "Alma ata ", "content": "Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language."}},
+{"pk":9,"model": "starter_app.post","fields":{
+"date": "2016-06-13T12:57:36.973000", "slug": "test-20169613", "title": "Test 2016.96.13", "content": " It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language."}}, 
+{"pk":10,"model": "starter_app.post","fields":{
+"date": "2016-06-13T12:58:37.052000", "slug": "test123-python", "title": "test123 Python", "content": "Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. "}},
+{"pk":11,"model": "starter_app.post","fields":{
+"date": "2016-06-13T13:12:37.851000", "slug": "test124", "title": "test124", "content": "datetime.datetime.utcnow", "date": "2016-06-13T13:23:39.515000", "slug": "test125", "title": "test125", "content": "ghbjsbj hhhhhh ffffffffffff fffffffff jjjjjjjjjjj gggggggg "}},
+{"pk":12,"model": "starter_app.post","fields":{ 
+"date": "2016-06-15T16:31:13.253000", "slug": "zsolti", "title": "Zsolti", "content": "aaaaaaaaaa sssssssssss fffffffffff jjjjjjjj ddddd fffff ddddd fffffff"}},
+{"pk":13,"model": "starter_app.post","fields":{ 
+"date": "2016-07-06T16:21:54.279000", "slug": "test-2016_07_06", "title": "test 2016_07_06", "content": "Szingapur egy varosallam Delkelet Azsiaban. Lakossaga kb 5,5 millio"}}, 
+{"pk":14,"model": "starter_app.post","fields":{   
+"date": "2016-08-03T16:35:32.727000", "slug": "eni", "title": "Eni", "content": "IBDP assessment and guidance handbook\r\n       1       \r\nWelcome to the International Baccalaureate Diploma \r\nProgramme (IBDP). This handbook contains information \r\nrelevant to all academic and administrative aspects of \r\nthe IBDP. Information is taken from the current \r\nHandbook \r\nof Procedures for the Diploma Programme\r\n and other IB \r\ndocumentation. This handbook is designed to provide \r\nstudents and parents with sufficient information so that they \r\nare able to: \r\n\u2022 \r\nplan and make adequate provisions for their IB Diploma \r\nworkload\r\n\u2022 \r\nunderstand the school and IB regulations regarding \r\nassessment\r\n\u2022 \r\nknow the responsibilities of the students and school during \r\nthe IB Diploma Programme\r\nStudents studying an IB Diploma course must make a \r\ngenuine attempt to complete course requirements. These \r\nrequirements include students applying themselves with \r\ndiligence and sustained effort to the set tasks and experiences \r\nprovided in the course by the school regardless of whether or \r\nnot these tasks contribute to the final assessment mark. It is \r\na matter of the teacher\u2019s professional judgment to determine \r\nwhether a student has made a genuine attempt to complete \r\nthese requirements. \r\nIndividual departments supplement these guidelines with \r\ndetails relating to subject specific components, task criteria \r\nand advice about the nature and completion of tasks.\r\nThis handbook is detailed in the information presented. Below \r\nare some important points to remember. However, it is vit"}},
+{"pk":15,"model": "starter_app.post","fields":{ 
+"date": "2016-08-17T14:42:50.618000", "slug": "new-post-2016_08_16", "title": "New post 2016_08_16", "content": "2\r\nIBDP assessment and guidance handbook\r\nThe International Baccalaureate Organization aims to develop \r\ninquiring, knowledgeable and caring young people who \r\nhelp to create a better and more peaceful world through \r\nintercultural understanding and respect.\r\nTo this end, the IB works with schools, governments \r\nand international organisations to develop challenging \r\nprogrammes of international education and rigorous \r\nassessment.\r\nThese programmes encourage students across the world \r\nto become active, compassionate and lifelong learners who \r\nunderstand that other people, with their differences, can also \r\nbe right."}}, 
+{"pk":16,"model": "starter_app.post","fields":{
+  "date": "2016-08-17T16:14:33.230000", "slug": "a1", "title": "A1"}}]

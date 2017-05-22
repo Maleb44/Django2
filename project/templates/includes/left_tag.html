@@ -1,0 +1,9 @@
+{%for post in messages %}
+    {%if  post.slug == post_t.slug   %} 
+        <a href="{% url 'total' post.slug %}" style ="color:red;" >
+           {{ post.title}} <br/> </a>
+    {%else%}
+        <a href="{% url 'total' post.slug %}"> 
+            {{ post.title}} <br/> </a>
+    {%endif%} 
+{%endfor%}
